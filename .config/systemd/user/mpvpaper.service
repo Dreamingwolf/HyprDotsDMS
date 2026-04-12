@@ -1,0 +1,8 @@
+[Unit]
+Description=Kill mpvpaper and restart it with a different file
+
+[Service]
+Type=simple
+ExecStart=/home/david/.local/bin/start-mpvpaper.sh
+Restart=on-failure
+RemainAfterExit=no

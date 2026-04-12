@@ -1,0 +1,9 @@
+[Unit]
+Description=Timer to restart mpvpaper periodically
+
+[Timer]
+OnCalendar=*:0/10
+AccuracySec=100ms
+
+[Install]
+WantedBy=timers.target
