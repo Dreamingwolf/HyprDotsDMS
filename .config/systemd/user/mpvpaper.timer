@@ -2,8 +2,8 @@
 Description=Set a random wallpaper every five minutes
 
 [Timer]
-OnBootSec=30
-Persistent=true
+OnActiveSec=5s
+Persistent=false
 
 [Install]
-WantedBy=timers.target
+WantedBy=default.target
